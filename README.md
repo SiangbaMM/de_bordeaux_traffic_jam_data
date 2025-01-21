@@ -98,20 +98,20 @@ During this upskilling journey we will :
 #### **Real time: Kafka + DLT**
 
 - **Kafka**: Captures real-time data from road traffic API.
-- Kafka Connect + Delta Live Tables (DLT)\*\*: Continuous loading into Snowflake.
-- Snowflake Storage\*\*: Separate tables for raw and transformed data.
+- **Kafka Connect + Delta Live Tables (DLT)**: Continuous loading into Snowflake.
+- **Snowflake Storage**: Separate tables for raw and transformed data.
 
-#### **Historical and aggregated data: Airflow + DLT** \*\*Airflow DAGs
+#### **Historical and aggregated data: Airflow + DLT** 
 
-- Airflow DAGs\*\*: Scheduled execution to retrieve aggregated data.
-- DLT\*\*: Initial storage in raw tables before transformation.
+- **Airflow DAGs**: Scheduled execution to retrieve aggregated data.
+- **DLT**: Initial storage in raw tables before transformation.
 
 ---
 
 ### 🔧 **3. Transformation and Modeling (DBT)**
 
 - DBT transforms and cleans\*\* raw data.
-- Creation of models\*\* for :
+- **Creation of models** for :
   - Traffic flows by zone and time.
   - Traffic/weather/events correlation.
   - Anomaly detection and prediction.
@@ -120,7 +120,7 @@ During this upskilling journey we will :
 
 ### 🚦 **4. Orchestration (Apache Airflow)**
 
-- Triggers Airflow DAGs\*\* to :
+- **Triggers Airflow DAGs** to :
   - Check API availability.
   - Launch Kafka/DLT pipelines.
   - Execute DBT transformations.
@@ -137,11 +137,11 @@ During this upskilling journey we will :
 
 ### 🔄 **6. Automation & Deployment**
 
-- GitHub Actions\*\*: CI/CD to validate DBT models and Airflow workflows.
-- Automated testing\*\* :
-  - DBT tests\*\*: Check for constraints and anomalies.
-  - Unit tests\*\* on Airflow DAGs.
-  - Kafka monitoring\*\* with Prometheus/Grafana.
+- **GitHub Actions**: CI/CD to validate DBT models and Airflow workflows.
+- **Automated testing** :
+  - **DBT tests**: Check for constraints and anomalies.
+  - **Unit tests** on Airflow DAGs.
+  - **Kafka monitoring** with Prometheus/Grafana.
 
 ---
 
