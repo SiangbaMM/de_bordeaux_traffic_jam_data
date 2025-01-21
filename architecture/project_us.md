@@ -87,6 +87,12 @@ flowchart TB
 
 #### **User Stories and related tasks**
 
+- **US0**: Environment settings
+
+  - [ ] Install docker and docker desktop
+  - [ ] Clone the project
+  - [ ] Install uv and create a virtual environment
+
 - **US1**: Collect real-time data from the Bordeaux Métropole API to analyze live road traffic.
 
   - [ ] Identify API and analyze documentation
