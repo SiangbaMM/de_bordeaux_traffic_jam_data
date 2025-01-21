@@ -1,4 +1,4 @@
-# ![Bordeaux Traffic Jam ](de_bordeaux_traffic_jam_data.webp "Architecture Picture")
+# ![Bordeaux Traffic Jam ](de_bordeaux_traffic_jam_data.png "Architecture Picture")
 
 The project consists of creating a data pipeline to study traffic jams in and around Bordeaux. The architecture is based on a **Docker** container composed by :
 
