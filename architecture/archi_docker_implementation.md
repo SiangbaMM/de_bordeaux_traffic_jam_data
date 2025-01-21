@@ -168,7 +168,7 @@ docker exec -it kafka kafka-topics --create --topic traffic_data --bootstrap-ser
 Installation of :
 
 ```sh
-pip install kafka-python requests
+uv install kafka-python requests
 ```
 
 Producer code :
